@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- suite name="OPP Automation"-->
+<suite name="OPP Automation" parallel="tests" thread-count="2">
+
+	<test name="chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="runner.TestRunner_TestNG" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="FF">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="runner.TestRunner_TestNG" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

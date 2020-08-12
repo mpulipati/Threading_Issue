@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div class="row">Set Wps . portlets . userid = manoj0110</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="row">Set Password = Password1!</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="row">setting value Ownership or Investment Interest</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="row">setting value TRIPLE R SADDLE CLUB</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="row">setting value 2019</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="row">setting value New Submission</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34224" started-at="2020-08-12T12:28:39 EDT" finished-at="2020-08-12T12:29:13 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner_TestNG@7a187f14]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="34224" started-at="2020-08-12T12:28:39 EDT" finished-at="2020-08-12T12:29:13 EDT">
+      <class name="runner.TestRunner_TestNG">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner_TestNG@7a187f14]" name="setUpClass" is-config="true" duration-ms="451" started-at="2020-08-12T12:28:39 EDT" finished-at="2020-08-12T12:28:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner_TestNG@7a187f14]" name="feature" duration-ms="32966" started-at="2020-08-12T12:28:39 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-12T12:29:12 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Submissions]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div class="row">Set Wps . portlets . userid = manoj0110</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="row">Set Password = Password1!</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="row">setting value Ownership or Investment Interest</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="row">setting value TRIPLE R SADDLE CLUB</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="row">setting value 2019</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="row">setting value New Submission</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:runner.TestRunner_TestNG@7a187f14]" name="terminate" is-config="true" duration-ms="1" started-at="2020-08-12T12:29:12 EDT" finished-at="2020-08-12T12:29:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner_TestNG@7a187f14]" name="tearDownClass" is-config="true" duration-ms="636" started-at="2020-08-12T12:29:12 EDT" finished-at="2020-08-12T12:29:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:runner.TestRunner_TestNG@7a187f14]" name="writeExtentReport" is-config="true" duration-ms="8" started-at="2020-08-12T12:29:13 EDT" finished-at="2020-08-12T12:29:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+      </class> <!-- runner.TestRunner_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
